@@ -21,7 +21,7 @@ component{
 					prc.pingURLs &= pingURL & CRLF;
 				}
 			}
-		}	
+		}
 		event.setView("settings/index");
 	}
 
@@ -40,6 +40,6 @@ component{
 		getColdboxOCM().set('modules-blogping-settings',event.getValue(name='settings',private=true,defaultValue={}),0,0);
 		// Messagebox
 		getPlugin("MessageBox").info("Settings Saved & Updated!");
-		setNextEvent('cbadmin.module.blogping.settings');
+		prc.cbHelper.setNextModuleEvent('blogping','settings');
 	}
 }
