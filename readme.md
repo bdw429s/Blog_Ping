@@ -1,0 +1,1 @@
+This is a ContentBox module to automatically and asynchronously ping blog aggregators after you post new entries.  Drop the contents of the repo into a folder in your modules directory, or better yet-- install it via ForgeBox in the ContentBox admin.
